@@ -1,6 +1,7 @@
 u="use.sh"
+s="../$u"
 check(){
-if [ -f "$u" ];
+if [ -f "$s" ];
 then
 echo "$u exist"
 else
