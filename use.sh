@@ -12,6 +12,7 @@ then
 #check if shell is download
 cd shell
 samE=$(diff comX ../comY|wc -c)
+rm ../comY
 if [ "$samE" -eq "0" ];
 then
 restA
