@@ -1,1 +1,1 @@
-bash ../binwalk/setup.py
+python2 ../binwalk/setup.py
