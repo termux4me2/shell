@@ -15,7 +15,7 @@ if [ -f "comY" ];
 then
 cd shell
 samE=$(diff comX ../comY|wc -c 2>/dev/null)
-rm ../comY 2>/dev/null
+#rm ../comY 2>/dev/null
 if [ "$samE" -eq "0" ];
 then
 restA
