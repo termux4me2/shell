@@ -1,2 +1,1 @@
-clear
-python2 ../binwalk/setup.py
+ls -alh ~
