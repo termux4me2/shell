@@ -1,1 +1,2 @@
-cat .bashrc
+cat ../.bashrc
+ls
