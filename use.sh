@@ -15,7 +15,6 @@ if [ -f "comY" ];
 then
 cd shell
 samE=$(diff comX ../comY|wc -c 2>/dev/null)
-#rm ../comY 2>/dev/null
 if [ "$samE" -eq "0" ];
 then
 restA
@@ -27,8 +26,11 @@ mv comY ..
 cd ..
 rm -rf $d_n
 else
-echo 'shell directory not found'
+echo 'command history doesnt exict'
+echo>comY
 fi
+else
+echo 'shell directory not found'
 fi
 }
 while [ "$opXvalue" -eq "0" ];
